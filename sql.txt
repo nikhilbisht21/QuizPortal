@@ -1,0 +1,34 @@
+//**
+Database name:portal
+host="localhost"
+user=""
+pass='''
+*//
+
+create database portal;
+use portal;
+
+create table alpha_m(user_n varchar(20),user_fi varchar(10));
+create table alpha_m2(user_fi varchar(10),user_p varchar(20));
+create table alpha_m3(user_n varchar(20),user_fi varchar(10),user_id varchar(12),usr_pin int,user_ty varchar(4),e_date varchar(30),e_time varchar(15));
+
+create table beta_p(user_id varchar(12),name char(30),age int,gen char(6),user_cln varchar(30),user_ml varchar(30),u_date varchar(30),u_time varchar(15));
+create table beta_s(user_id varchar(12),name char(30),age int,gen char(6),user_cln varchar(30),user_ml varchar(30),u_date varchar(30),u_time varchar(15),u_score float,score_rg int,score_wr int);
+
+create table gama_q(qtn_n varchar(8),qtn_s char(30),qtn_l varchar(1),qtn_q1 varchar(200),qtn_q2 varchar(200),qtn_a varchar(30),qtn_b varchar(30),qtn_c varchar(30),qtn_d varchar(30),qtn_ui varchar(12),u_date varchar(30),u_time varchar(15));
+
+create table tau_m(msg_id varchar(9),sndr_id varchar(12),recp_id varchar(12),msg_d varchar(30),msg_t varchar(15),msg_m1 varchar(200),msg_m2 varchar(200));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
