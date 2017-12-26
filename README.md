@@ -5,3 +5,5 @@ I have created this portal in 2016 with php v4.1.1, so it's generating errors on
 This repository contains following important files:<br>
 1.sql.txt->This contains the commands to create database for the portal<br>
 2.quizportal.pptx->This ppt explains the component and features of this portal
+
+Note:Use nikhil as username in login page to enter in admin panel of the portal
